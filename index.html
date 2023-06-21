@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo 13</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+</head>
+<body>
+    <h1>Anime Paradise</h1>
+    <div class="container w-75">
+        <div id="carousel-botao" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="https://sucodemanga.com.br/wp-content/uploads/2022/10/Bocchi-the-Rock-pg-thumb.jpg">
+                    <div class="carousel-caption">
+                        <h2>Bocchi The Rock</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://images5.alphacoders.com/130/1301564.png">
+                    <div class="carousel-caption">
+                        <h2>Blue Lock</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://gkpb.com.br/wp-content/uploads/2022/12/spy-family-final-primeira-temporada1-scaled.jpg">
+                    <div class="carousel-caption">
+                        <h2>Spy x Family</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-botao" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-botao" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-botao" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-botao" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-botao" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4">
+        <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
+            <div class="col">
+                <div class="card">
+                    <img src="https://i0.wp.com/davidfoodtravel.com/wp-content/uploads/2022/12/fb_img_1672028890906.jpg?resize=616%2C439&ssl=1">
+                    <div class="card-body">
+                        <h4 class="card-title">Bocchi The Rock</h4>
+                        <p class="card-text">
+                            1 Temporada, 12 episódios
+                        </p>
+                        <a href="#" class="btn btn-primary">Assistir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://i0.wp.com/abstractaf.in/wp-content/uploads/2023/03/blue-lock-ep-22.png?fit=1473%2C798&ssl=1">
+                    <div class="card-body">
+                        <h4 class="card-title">Blue Lock</h4>
+                        <p class="card-text">
+                            1 Temporada, 24 episódios
+                        </p>
+                        <a href="#" class="btn btn-primary">Assistir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://observatoriodocinema.uol.com.br/wp-content/uploads/2022/07/Spy-x-Family-anya.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Spy x Family</h4>
+                        <p class="card-text">
+                            1 Temporada, 25 episódios
+                        </p>
+                        <a href="#" class="btn btn-primary">Assistir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>
